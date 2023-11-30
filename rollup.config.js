@@ -9,7 +9,8 @@ const packageJson = require("./package.json");
 
 export default [
   {
-    input: "src/index.ts",
+    // TODO: заменить после разработки на ""src/index.ts""
+    input: "src/run.ts",
     output: [
       {
         format: "cjs",
